@@ -113,7 +113,7 @@ def train_pipeline(cfg):
     )
     val_loader = get_val_loader(
         data_dir,
-        mode="validation",
+        mode="test",
         batch_size=1,
         num_workers=1,
         shuffle=False,
