@@ -1,4 +1,0 @@
-Training start time is: 2024-09-20, 16:04:14.
-(1). Initilization, define network and data loader
-Training start time is: 2024-09-20, 16:08:00.
-(1). Initilization, define network and data loader
