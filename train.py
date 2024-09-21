@@ -23,6 +23,10 @@ from utils.logger_utils import Logger
 
 from model.ProFact import ProFact
 
+import torch.multiprocessing
+
+torch.multiprocessing.set_sharing_strategy("file_system")
+
 
 def eval_step(model, epoch, val_loader, criterion, writer):
     model.eval()
